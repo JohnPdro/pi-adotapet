@@ -23,6 +23,7 @@ include "../includes/conexao.php"
     <td>cidade</td>
     <td>estado</td>
     <td>comportamento</td>
+    <td>Ações</td>
   </tr>
   <?php
   $sql = "select * from animais";
@@ -39,6 +40,12 @@ include "../includes/conexao.php"
       <td><?php echo $um_animal['cidade']; ?></td>
       <td><?php echo $um_animal['estado']; ?></td>
       <td><?php echo $um_animal['comportamento']; ?></td>
+      <td>
+        <a href="#" title="Ver completo">Visualizar</a>
+        <a href="#">Editar</a>
+        <a href="#">Excluir</a>
+
+      </td>
     </tr>
   <?php
   endwhile;
