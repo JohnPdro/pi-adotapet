@@ -1,0 +1,19 @@
+selecionar.php --> listagem dos alunos, botão para cadastro um novo alunos
+
+novo.php --> formulário para cadastro de um novo aluno
+inserir.php --> realizar a inserção no BD
+
+editar.php --> formulário com os dados do aluno preenchido pronto para modificação
+atualizar.php --> realizar a atualização dos dados no BD
+
+deletar.php --> página que realiza a exclusão dos dados do aluno
+
+visualizar.php --> página com os dados e um único aluno
+
+
+adotapet:
+
+selecionr.php --> Listagem do animas para adoção
+
+novo.php --> Formulário para o cadastro de novos animais para adoção
+inserir.php --> 
