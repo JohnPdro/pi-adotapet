@@ -15,6 +15,7 @@ include "../includes/conexao.php"
 <table border="1">
   <tr>
     <td>Código</td>
+    <td>Foto</td>
     <td>Nome</td>
     <td>idade</td>
     <td>sexo</td>
@@ -32,6 +33,7 @@ include "../includes/conexao.php"
   ?>
     <tr>
       <td><?php echo $um_animal['id_animal']; ?></td>
+      <td> <img src="<?php echo $um_animal ['foto']; ?>" alt=""></td>
       <td><?php echo $um_animal['nome']; ?></td>
       <td><?php echo $um_animal['idade']; ?></td>
       <td><?php echo $um_animal['sexo']; ?></td>
