@@ -1,6 +1,6 @@
 <?php
 include "../includes/conexao.php";
-$id = $_GET["id_animal"];
+$id = $_GET["id"];
 
 $sql = "delete from animais where id_animal = $id";
 mysqli_query($conexao, $sql);

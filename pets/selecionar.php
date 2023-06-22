@@ -33,7 +33,7 @@ include "../includes/conexao.php"
   ?>
     <tr>
       <td><?php echo $um_animal['id_animal']; ?></td>
-      <td> <img src="<?php echo $um_animal ['foto']; ?>" alt=""></td>
+      <td> <img src="<?php echo $um_animal ['foto']; ?>" width="100" alt=""></td>
       <td><?php echo $um_animal['nome']; ?></td>
       <td><?php echo $um_animal['idade']; ?></td>
       <td><?php echo $um_animal['sexo']; ?></td>
@@ -43,9 +43,9 @@ include "../includes/conexao.php"
       <td><?php echo $um_animal['estado']; ?></td>
       <td><?php echo $um_animal['comportamento']; ?></td>
       <td>
-        <a href="#" title="Ver completo">Visualizar</a>
-        <a href="#">Editar</a>
-        <a href="deletar.php?id_animal=<?php echo $um_animal['id_animal'];?>">Excluir</a>
+        <a href="visualizar.php?id=<?php echo $um_animal['id_animal'];?>" title="Ver completo">Visualizar</a>
+        <a href="editar.php?id=<?php echo $um_animal['id_animal'];?>">Editar</a>
+        <a href="deletar.php?id=<?php echo $um_animal['id_animal'];?>">Excluir</a>
 
       </td>
     </tr>
